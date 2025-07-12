@@ -41,7 +41,7 @@ const cars = [
   
 const CarList = () => {
   return (
-    <div className="flex flex-wrap gap-3.5 justify-center mb-[57px] lg:justify-start">
+    <div className="flex flex-wrap gap-3.5 cursor-pointer justify-center mb-[57px] lg:justify-start">
       {cars.map((car, index) => (
         <CarCard key={index} car={car} />
       ))}

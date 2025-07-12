@@ -14,7 +14,7 @@ function Header() {
       <div className="relative z-10 flex items-center justify-between px-2 md:px-6 max-w-[1440px] mx-auto">
         <div className="relative">
           <div className="absolute inset-0 w-72 h-20 rounded-2xl bg-gradient-to-r rotate-12 from-teal-500 to-green-700  blur-3xl  -z-10"></div>
-          <span className="text-xl md:text-3xl font-bold text-white">
+          <span className="text-xl md:text-3xl font-bold text-white cursor-pointer">
             Carsify
           </span>
         </div>
@@ -22,19 +22,17 @@ function Header() {
         <div className="hidden md:flex items-center gap-3">
           <ul className="flex gap-3 justify-center items-center">
             <li>
-              <span className="text-[#dde0e0]">Search</span>
+              <span className="text-[#dde0e0] cursor-pointer">Search</span>
             </li>
-            <Link to="/addcar">
             <li>
-              <span className="text-[#dde0e0]">AddCar</span>
+              <span className="text-[#dde0e0] cursor-pointer">AddCar</span>
             </li>
-            </Link>
-            <button class="main-btn"><span>LOGIN</span></button>
+            <button class="main-btn !h-[40px] !w-[100px] "><span>LOGIN</span></button>
           </ul>
           <div className="flex items-center gap-4 border-l border-[#94A3B8] ml-4 pl-4">
-            <img src={github} alt="GitHub" />
-            <img src={twitter} alt="Twitter" />
-            <img src={Moon} alt="Dark Mode Toggle" />
+            <img src={github} alt="GitHub" className="cursor-pointer" />
+            <img src={twitter} alt="Twitter" className="cursor-pointer" />
+            <img src={Moon} alt="Dark Mode Toggle" className="cursor-pointer" />
           </div>
         </div>
 
