@@ -8,7 +8,7 @@ const cars = [
       fuel: "198L",
       seats: 2,
       price: "26.74",
-      image: "/src/assets/Image/img2.png",
+      image: "https://car-showcase-gamma-vert.vercel.app/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Fdc6yzmwrq%2Fimage%2Fupload%2Fv1688531680%2Fsuy276ohtqoxiz89s2zf.png&w=3840&q=75",
     },
     {
       name: "McLaren",
@@ -17,7 +17,7 @@ const cars = [
       fuel: "190L",
       seats: 1,
       price: "37.74",
-      image: "/src/assets/Image/images__7_-removebg-preview.png",
+      image: "https://car-showcase-gamma-vert.vercel.app/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Fdc6yzmwrq%2Fimage%2Fupload%2Fv1688775905%2Fsf8f1ywlx7o6bggt9jkv.png&w=3840&q=75",
     },
     {
       name: "Lamborgini",
@@ -26,7 +26,7 @@ const cars = [
       fuel: "198L",
       seats: 2,
       price: "67.00",
-      image: "/src/assets/Image/images__8_-removebg-preview.png",
+      image: "https://car-showcase-gamma-vert.vercel.app/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Fdc6yzmwrq%2Fimage%2Fupload%2Fv1688654881%2Feo14tqmgr6g9fzb79ro1.png&w=3840&q=75",
     },
     {
       name: "Hyundai",
@@ -35,7 +35,7 @@ const cars = [
       fuel: "190L",
       seats: 6,
       price: "22.32",
-      image: "/src/assets/Image/images__9_-removebg-preview.png",
+      image: "https://car-showcase-gamma-vert.vercel.app/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Fdc6yzmwrq%2Fimage%2Fupload%2Fv1688189315%2Frjjoa56gtru03tzapuj0.png&w=3840&q=75",
     },
     {
         name: "Urus",
@@ -53,7 +53,7 @@ const cars = [
         fuel: "190L",
         seats: 1,
         price: "37.74",
-        image: "/src/assets/Image/images__10_-removebg-preview.png",
+        image: "https://car-showcase-gamma-vert.vercel.app/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Fdc6yzmwrq%2Fimage%2Fupload%2Fv1688775905%2Fsf8f1ywlx7o6bggt9jkv.png&w=3840&q=75",
       },
       {
         name: "Lamborgini",
